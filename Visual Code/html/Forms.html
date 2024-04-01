@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <div>
+        <label for="username_id"></label>
+        <input type="text" id="username_id" required value="Hello" readonly >
+        </div>
+        <div>
+            <label for="passwword_id"></label>
+            <input type="password" id="passwword_id" name="password" placeholder="vui long nhap password">
+        </div>
+        <div>
+            <label for="">Age</label>
+            <input type="number" id="age_id" name="age" min="0" step="10">
+
+
+        </div>
+        <div>
+            <label for="date_id">Date</label>
+            <input type="date" id="date_id" placeholder="yy/mm/dd" min="03/20/2024">
+
+        </div>
+        <div>
+            <label for="file_id">File</label>
+            <input type="file" id="file_id" multiple>
+
+        </div>
+        <div>
+            <label for="">Vui long chon gioi tinh</label>
+            <label for="">Male</label>
+            <input type="radio" name="sex" id="sex_1">
+            <label for="">Female</label>
+            <input type="radio" name="sex" id="sex_2">
+            <label for="">Other</label>
+            <input type="radio" name="sex" id="sex_3">
+        </div>
+        <div>
+            <label for="">Product1</label>
+            <input type="checkbox" name="checkbox1">
+            <label for="">Product2</label>
+            <input type="checkbox" name="checkbox2">
+            <label for="">Product3</label>
+            <input type="checkbox" name="checkbox3">
+
+        </div>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
